@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Task Form</title>
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Select Form</h1>
+    <form id="test-form">
+      <label for="city">Город:</label>
+      <select id="city" class="styled-select">
+        <option value="">Выберите город</option>
+        <option value="city1">Москва</option>
+        <option value="city2">Казань</option>
+      </select>
+
+      <label for="department">Цех:</label>
+      <select id="department" class="styled-select">
+        <option value="">Выберите цех</option>
+      </select>
+
+      <label for="employee">Сотрудник:</label>
+      <select id="employee" class="styled-select">
+        <option value="">Выберите сотрудника</option>
+      </select>
+
+      <label for="team">Бригада:</label>
+      <select id="team" class="styled-select">
+        <option value="">Выберите бригаду</option>
+        <option value="team1">Бригада 1</option>
+        <option value="team2">Бригада 2</option>
+      </select>
+
+      <label for="shift">Смена:</label>
+      <select id="shift" class="styled-select">
+        <option value="">Выберите смену</option>
+        <option value="shift1">Дневная</option>
+        <option value="shift2">Ночная</option>
+      </select>
+
+      <div class="button-container">
+        <button class="save-btn" type="submit">Сохранить</button>
+      </div>
+    </form>
+  </div>
+<script src="coomponents/logic.js"></script>
+</body>
+</html>
